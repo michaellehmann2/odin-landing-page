@@ -10,6 +10,22 @@ body {
     flex-direction: column;
 }
 
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 100px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-family: inherit;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
 .call-to-action-section {
     flex: 1;
     display: flex;
