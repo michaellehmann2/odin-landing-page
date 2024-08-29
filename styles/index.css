@@ -18,12 +18,33 @@ body {
 }
 
 .call-to-action {
-    border-radius: 15px;
+    border-radius: 8px;
     background-color: #3882f6;
     display: flex;
     align-items: center;
     justify-content: space-around;
     min-width: 650px;
+    padding: 16px 50px;
+}
+
+.cta-text > h2 {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.cta-text > p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.call-to-action > button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px, solid, #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
 
 .footer {
