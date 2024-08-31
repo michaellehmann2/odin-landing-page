@@ -5,10 +5,13 @@
 body {
     height: 100vh;
     margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     gap:20px;
+}
+
+body > * {
+    padding: 12px 225px;
 }
 
 /* || Colors */
@@ -52,7 +55,6 @@ button {
 .header-bar {
     display: flex;
     gap: 20px;
-    padding: 20px;
 }
 
 .header-bar > span {
@@ -118,7 +120,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 100px;
+    padding: 80px 320px;
 }
 
 .quote-text {
@@ -135,13 +137,15 @@ button {
 }
 
 .call-to-action-section {
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 300px;
 }
 
 .call-to-action {
+    flex: 1;
     border-radius: 8px;
     background-color: #3882f6;
     display: flex;
@@ -169,5 +173,5 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 58px;
 }
