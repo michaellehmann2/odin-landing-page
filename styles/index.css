@@ -52,11 +52,30 @@ button {
 .header-bar {
     display: flex;
     gap: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .header-bar > span {
+    font-weight: 800;
     margin-right: auto;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-text > h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-image {
+    background-color: #6d747d;
+    height: 160px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-info-section {
