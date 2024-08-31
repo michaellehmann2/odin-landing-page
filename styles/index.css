@@ -20,10 +20,19 @@ body {
 
 .quote-text {
     color: #1f2937;
-    font-family: inherit;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.quote-attribution {
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .call-to-action-section {
