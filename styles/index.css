@@ -11,6 +11,7 @@ body {
     gap:20px;
 }
 
+/* || Colors */
 .dark-blu-bg {
     background-color: #1f2937;
 }
@@ -27,6 +28,37 @@ body {
     color: #1f2937;
 }
 
+
+/* || Fonts */
+.smallest {
+    font-size: 18px;
+}
+
+.midsized {
+    font-size: 24px;
+}
+
+.largeish {
+    font-size: 36px;
+}
+
+/* || Other */
+button {
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+.header-bar {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.header-bar > span {
+    margin-right: auto;
+}
+
 .image-info-section {
     display: flex;
     flex-direction: column;
@@ -35,7 +67,6 @@ body {
 }
 
 .image-info-section > h2{
-    font-size: 36px;
     font-weight: 900;
 }
 
@@ -72,7 +103,6 @@ body {
 }
 
 .quote-text {
-    font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     margin-bottom: 0px;
@@ -80,7 +110,6 @@ body {
 
 .quote-attribution {
     font-weight: 700;
-    font-size: 20px;
     margin-top: 6px;
     display: flex;
     justify-content: flex-end;
@@ -104,19 +133,15 @@ body {
 }
 
 .cta-text > h2 {
-    font-size: 24px;
     margin-bottom: 6px;
 }
 
 .cta-text > p {
-    font-size: 18px;
     margin-top: 0px;
 }
 
 .call-to-action > button {
-    background-color: #3882f6;
     border: 2px, solid, #f9faf8;
-    border-radius: 5px;
     padding: 5px 20px;
 }
 
